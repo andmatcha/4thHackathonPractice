@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,24 @@
     <link rel="stylesheet" href="./destyle.css">
     <link rel="stylesheet" href="./test1.css">
 </head>
+
 <body>
+    <!-- header -->
+    <header>
+        <div class="header_inner">
+            <div class="header_logo">logo</div>
+            <nav>
+                <ul class="header_menu">
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="header_spacer"></div>
+
+
     <!-- pagenation -->
     <section id="page1" class="js_page is_show" data-page="1">
         ここに1ページ目の内容を追加
@@ -30,6 +48,28 @@
         <li id="page4_btn" onclick="clickBtn(4)" class="page_btn">4</li>
         <li id="next_btn" onclick="clickBtn('next')" class="page_btn">＞</li>
     </ul>
+
+    <footer>
+        <div class="footer_inner">
+            <ul class="footer_column">
+                <li>text text text text</li>
+                <li>text text text text</li>
+                <li>text text text text</li>
+            </ul>
+            <ul class="footer_column">
+                <li>text text text text</li>
+                <li>text text text text</li>
+                <li>text text text text</li>
+            </ul>
+            <ul class="footer_column">
+                <li>text text text text</li>
+                <li>text text text text</li>
+                <li>text text text text</li>
+            </ul>
+        </div>
+    </footer>
+
     <script src="./pagenation.js"></script>
 </body>
+
 </html>
